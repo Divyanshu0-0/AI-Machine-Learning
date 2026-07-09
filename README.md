@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Hi there, I'm Divyanshu Sharma! 👋
+# Hi there, I'm Divyanshu Kumar Sharma! 👋
 
 ### 👨‍💻 B.C.A Computer Science Student | 🤖 AI & Machine Learning Enthusiast
 
@@ -16,7 +16,7 @@
 
 ### 🚀 **About Me**
 
-I am a Computer Science undergraduate passionate about solving real-world problems through code. With a strong foundation in core programming (C/C++/Java), I am currently transitioning into the world of **Artificial Intelligence and Machine Learning**.
+I am a Computer Science undergraduate passionate about solving real-world problems through code. With a strong foundation in core programming (C/C++/Java/Python), I am currently transitioning into the world of **Artificial Intelligence and Machine Learning**.
 
 * 🔭 I’m currently working on: ** Basic Prediction Models / Data Analysis **
 * 🌱 I’m currently learning: **Neural Networks, Deep Learning, and Python Data Stacks**
