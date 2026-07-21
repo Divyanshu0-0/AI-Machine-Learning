@@ -39,9 +39,15 @@ RULES - THESE WILL CAUSE ERRORS:
 my name = "x" --> no space are allowed
 my-name = "x" --> no special characters are allowed (except underscore _ )  '''
 
-""" Naming Conventions ( Correct Way )
+# Naming Conventions ( Correct Way )
 
-camelCase -> myVariableName
-PascalCase -> MyVariableName
-snake_case -> my_variable_name    # Python prefers this
-"""
+# camelCase -> myVariableName
+hellBro = 20
+
+# PascalCase -> MyVariableName
+HellBro = 40
+
+# snake_case -> my_variable_name    # Python prefers this
+hell_bro = 20
+
+print (hellBro + hell_bro + HellBro )
