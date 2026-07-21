@@ -32,14 +32,7 @@ print(any_thing)
 
 
 # ( anything can become a variable )
-''' But, There are some rules
-RULES - THESE WILL CAUSE ERRORS:
-
-1name = "x" --> can't start with a number
-my name = "x" --> no space are allowed
-my-name = "x" --> no special characters are allowed (except underscore _ )  '''
-
-# Naming Conventions ( Correct Way )
+#           But, There are some rules
 
 # camelCase -> myVariableName
 hellBro = 20
@@ -51,3 +44,13 @@ HellBro = 40
 hell_bro = 20
 
 print (hellBro + hell_bro + HellBro )
+
+
+#       DATATYPES
+
+a = -324
+b = 34
+c = 24
+d = 876.24
+
+print(type(d))
