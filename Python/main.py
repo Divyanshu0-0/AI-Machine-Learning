@@ -20,37 +20,43 @@ from tkinter import Variable
                     #1. Comments and Variable
 
 # This line below is used for Printing
-print("Hello NYC")
+# print("Hello NYC")
 
 # Variable
-
-anything = 12312
-print(anything)
-
-any_thing = 123123123
-print(any_thing)
+#
+# anything = 12312
+# print(anything)
+#
+# any_thing = 123123123
+# print(any_thing)
 
 
 # ( anything can become a variable )
 #           But, There are some rules
 
 # camelCase -> myVariableName
-hellBro = 20
+# hellBro = 20
 
 # PascalCase -> MyVariableName
-HellBro = 40
+# HellBro = 40
 
 # snake_case -> my_variable_name    # Python prefers this
-hell_bro = 20
+# hell_bro = 20
 
-print (hellBro + hell_bro + HellBro )
+# print (hellBro + hell_bro + HellBro )
 
 
 #       DATATYPES
 
-a = -324
-b = 34
-c = 24
-d = 876.24
+a = -324   # int
+b = 34     # int
+c = 24     # int
+d = 876.24 # float
 
+hell = 75598   # int
+Hell = 752/876 # float
+d = 876  + 876j # complex
+
+print(type(hell))
+print(type(Hell))
 print(type(d))
