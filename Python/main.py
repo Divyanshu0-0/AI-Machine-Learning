@@ -48,6 +48,7 @@ from tkinter import Variable
 
 #       DATATYPES
 
+#       DATATYPES ( NUMBERS )
 a = -324   # int
 b = 34     # int
 c = 24     # int
@@ -60,3 +61,22 @@ d = 876  + 876j # complex
 print(type(hell))
 print(type(Hell))
 print(type(d))
+
+
+#       DATATYPES ( strings )
+
+string = "hell bro hdhdhkhdoiwhd 912739 h12h9"
+print(type(string))
+print(string)
+
+# if you want print Double/Single cots( " , ' ) then:
+String = "hell bro 'What the luck is this '"
+print(type(String))
+print(String)
+
+stRing = 'hell bro "What the luck is this" '
+print(type(stRing))
+print(stRing)
+
+#       DATATYPES ( Boolean )
+
