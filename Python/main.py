@@ -100,7 +100,7 @@ print(a)
 
 print("Strings & Type Conversion")
 a = "A"
-print(ord(a))
+print(ord(a))    # ->  65  ( Unicode of A )
 
-print(ord('a'))
-print(chr(86))
+print(ord('a'))  # ->  97  ( Unicode of a )
+print(chr(86))   # ->  V  ( Character from Unicode )
