@@ -85,3 +85,6 @@ b = False
 
 print(type(a))
 print(type(b))
+
+#       DATATYPES ( NoneType ) NoneType :- Representing Nothing
+
