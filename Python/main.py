@@ -17,7 +17,9 @@ from tkinter import Variable
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
-                    #1. Comments and Variable
+                    #1. Installation
+
+                    #2. Comments and Variable
 
 # This line below is used for Printing
 # print("Hello NYC")
@@ -46,9 +48,9 @@ from tkinter import Variable
 # print (hellBro + hell_bro + HellBro )
 
 
-#       DATATYPES
+#      3. DATATYPES ------------------------------------------
 
-#       DATATYPES ( NUMBERS )
+# DATATYPES ( Numbers ) ++++++++++++++++++++++
 a = -324   # int
 b = 34     # int
 c = 24     # int
@@ -63,7 +65,7 @@ print(type(Hell))
 print(type(d))
 
 
-#       DATATYPES ( strings )
+# DATATYPES ( strings ) +++++++++++++++++++++++++
 
 string = "hell bro hdhdhkhdoiwhd 912739 h12h9"
 print(type(string))
@@ -78,7 +80,7 @@ stRing = 'hell bro "What the luck is this" '
 print(type(stRing))
 print(stRing)
 
-#       DATATYPES ( Boolean )
+# DATATYPES ( Boolean ) +++++++++++++++++++++++++++
 
 a = True
 b = False
@@ -86,5 +88,19 @@ b = False
 print(type(a))
 print(type(b))
 
-#       DATATYPES ( NoneType ) NoneType :- Representing Nothing
+# DATATYPES ( NoneType ) NoneType :- Representing Nothing +++++
 
+a = None
+print(type(a))
+print(a)
+
+# Strings & Type Conversion
+
+# How String work Internally :- Each character in a string is stored with its own UniCode number. That way string use more memory than integers.
+
+print("Strings & Type Conversion")
+a = "A"
+print(ord(a))
+
+print(ord('a'))
+print(chr(86))
