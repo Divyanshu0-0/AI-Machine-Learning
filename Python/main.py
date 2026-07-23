@@ -103,4 +103,18 @@ a = "A"
 print(ord(a))    # ->  65  ( Unicode of A )
 
 print(ord('a'))  # ->  97  ( Unicode of a )
+print(ord('😒'))  # ->  128530  ( Unicode of 😒 )
 print(chr(86))   # ->  V  ( Character from Unicode )
+
+z = "DOCTOR DOOM"
+print("Indexing of z[0] is :",z[0])
+print("Indexing of z[0] is :",z[1])
+print("Indexing of z[0] is :",z[2])
+print("Indexing of z[0] is :",z[3])
+print("Indexing of z[0] is :",z[4])
+print("Indexing of z[0] is :",z[5])
+print("Indexing of z[0] is :",z[6])
+print("Indexing of z[0] is :",z[7])
+print("Indexing of z[0] is :",z[8])
+print("Indexing of z[0] is :",z[9])
+print("Indexing of z[0] is :",z[10])
