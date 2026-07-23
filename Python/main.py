@@ -94,7 +94,7 @@ a = None
 print(type(a))
 print(a)
 
-#         Strings & Type Conversion -------------------------------
+ #         Strings & Type Conversion -------------------------------
 
 # How String work Internally :- Each character in a string is stored with its own UniCode number. That way string use more memory than integers.
 
@@ -107,6 +107,13 @@ print(ord('😒'))  # ->  128530  ( Unicode of 😒 )
 print(chr(86))   # ->  V  ( Character from Unicode )
 
 # STRING INDEXING ++++++++++++++++++++++++++++
+
+#   a = "Hello"   # "Hello" -> is a String
+
+#   H  e  l  l  o
+#   0  1  2  3  4 = Positive Indexing
+#  -5 -4 -3 -2 -1 = Negative Indexing
+
 
 z = "DOCTOR DOOM"
 print("Indexing of z[0] is :",z[0])
@@ -128,3 +135,7 @@ print("Positive Indexing and Negative Indexing")
 print(z[10])
 print(z[-1])
 print(z[-0])
+
+# String Slicing -----------------
+# Slicing cuts out a piece of a string Syntax [start : stop : step] - note that stop index is excluded.
+
