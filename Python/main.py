@@ -94,7 +94,7 @@ a = None
 print(type(a))
 print(a)
 
-# Strings & Type Conversion
+#         Strings & Type Conversion -------------------------------
 
 # How String work Internally :- Each character in a string is stored with its own UniCode number. That way string use more memory than integers.
 
@@ -105,6 +105,8 @@ print(ord(a))    # ->  65  ( Unicode of A )
 print(ord('a'))  # ->  97  ( Unicode of a )
 print(ord('😒'))  # ->  128530  ( Unicode of 😒 )
 print(chr(86))   # ->  V  ( Character from Unicode )
+
+# STRING INDEXING ++++++++++++++++++++++++++++
 
 z = "DOCTOR DOOM"
 print("Indexing of z[0] is :",z[0])
