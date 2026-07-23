@@ -118,3 +118,11 @@ print("Indexing of z[0] is :",z[7])
 print("Indexing of z[0] is :",z[8])
 print("Indexing of z[0] is :",z[9])
 print("Indexing of z[0] is :",z[10])
+
+# Positive Indexing and Negative Indexing
+
+print("Positive Indexing and Negative Indexing")
+
+print(z[10])
+print(z[-1])
+print(z[-0])
